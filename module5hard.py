@@ -81,3 +81,5 @@ class User:
     def __eq__(self, other):
         if isinstance(other, User):
             return self.nickname == other.nickname
+
+
